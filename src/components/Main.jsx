@@ -23,10 +23,26 @@ const Main = () => {
         </video>
       </section>
       <section className="extern-links-section">
-        links a sitios externos
+        <ul>
+          <li>
+            <a href="#">
+             <img src="http://cine.ar/img/tv.cine.ar.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://cine.ar/img/play.cine.ar.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://cine.ar/img/estrenos.cine.ar.svg" alt="" />
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
-  ;
-};
+  )
+}
 
 export default Main;
