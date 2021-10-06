@@ -30,11 +30,11 @@ const enlacesARedesSociales = redesSociales.map(
   )
 );
 const enlaceARedesSociales = redesSociales.map(
-  ({ textoAlternativo, srcDelIcono }) => <span>Esto no es  </span>
+  ({ textoAlternativo, srcDelIcono }) => <span>Esto no es </span>
 );
 
 const Header = () => {
-  return  (
+  return (
     <header>
       <nav>
         <div>
@@ -72,4 +72,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header
